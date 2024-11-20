@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CV de Haider Carreño, Ingeniero de Sistemas en formación.">
+    <meta name="keywords" content="Haider Carreño, CV, Ingeniería de Sistemas, Proyectos, Contacto">
+    <title>Haider CV</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="seccion-caja">
+        <nav>
+            <a href="#" class="logo">Haider</a>
+            <!-- Checkbox para controlar el menú -->
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <ul class="nav-links">
+                <li><a href="#cta">Inicio</a></li>
+                <li><a href="#experiencia">Experiencia y Proyectos</a></li>
+                <li><a href="#contacto-form">Contacto</a></li>
+            </ul>
+        </nav>
+        <section id="cta" class="seccion-caja">
+            <h1>Soy Haider y este es mi CV</h1>
+            <h2>Te Invito a Explorar Mi Perfil y Cómo Puedo Impulsar Tus Proyectos</h2>
+            <div class="profile-container">
+                <img src="foto-cv.jpg" alt="Foto de Haider" class="perfil-foto">
+                <a href="#contacto-form" class="cta-button">Conéctate Conmigo</a>
+            </div>
+        </section>
+    </header>
+    
+
+    <!-- Sección de Experiencia y Carrusel -->
+    <main id="experiencia" class="seccion-caja">
+        <h2>Experiencia Académica y Proyectos</h2>
+        <div class="carousel-container">
+            <div class="carousel">
+                <div class="carousel-slide">
+                    <h3>Segundo Semestre de la carrera de Ingeniería de Sistemas</h3>
+                    <p>Estudio de HTML, CSS, y JavaScript. Construcción de proyectos web básicos.</p>
+                </div>
+                <div class="carousel-slide">
+                    <h3>Proyectos Prácticos</h3>
+                    <p>Desarrollo de páginas web personales y trabajo en equipo para resolver problemas reales.</p>
+                </div>
+                <div class="carousel-slide">
+                    <h3>Conocimientos Técnicos</h3>
+                    <p>Aprendiendo bases sólidas en Java y algoritmos para resolver retos de programación.</p>
+                </div>
+            </div>
+            <div class="carousel-nav">
+                <span class="carousel-dot"></span>
+                <span class="carousel-dot"></span>
+                <span class="carousel-dot"></span>
+            </div>
+        </div>
+    </main>
+
+    <!-- Sección de Contacto -->
+    <section id="contacto-form" class="seccion-caja">
+        <h2>Formulario de Contacto</h2>
+        <form action="#" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+            <button type="submit">Enviar Mensaje</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <h2>Contacto</h2>
+        <address>
+            <p>Email: <a href="mailto:h2004alexis@gmail.com">h2004alexis@gmail.com</a></p>
+            <p>Teléfono: <a href="tel:3228715414">+57 322 871 5414</a></p>
+            <p>Encuentra más en <a href="https://www.linkedin.com/in/haider-carre%C3%B1o-7172b5230/" target="_blank">LinkedIn</a> y en <a href="https://github.com/halexXx10" target="_blank">GitHub</a></p>
+        </address>
+        <p>© 2024 Haider, Todos los derechos reservados. Diseñado por Haider.</p>
+        <section class="social">
+            <a href="https://www.facebook.com/haider.carreno" target="_blank">Facebook</a>
+            <a href="https://www.instagram.com/haider.alx/" target="_blank">Instagram</a>
+            <a href="https://www.tiktok.com/@haisalx_10" target="_blank">TikTok</a>
+        </section>
+        <p>Gracias por visitar mi CV. Estoy abierto a nuevas oportunidades.</p>
+
+    </footer>
+</body>
+</html>
